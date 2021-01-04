@@ -1,0 +1,17 @@
+.Container {
+  display: flex;
+  color: #333;
+  font-size: 12px;
+}
+
+.Link {
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.Link:not(:last-child)::after {
+  content: '|';
+  display: inline-block;
+  margin: 0 1ch;
+}

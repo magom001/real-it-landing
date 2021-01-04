@@ -14,11 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.1.0",
+    "@fontsource/roboto": "^4.1.0",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-intl": "^0.3.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@types/node": "^14.14.19",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "gatsby-plugin-css-modules-typings": "^1.0.1",
     "prettier": "2.2.1"
   },
   "repository": {
